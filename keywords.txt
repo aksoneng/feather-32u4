@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For Motor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Feather-32U4	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+battery_voltage KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LED_BUILTIN   LITERAL1
+PIN_VBAT      LITERAL1
+PIN_RFM95_NSS LITERAL1
+PIN_RFM95_IO0 LITERAL1
+PIN_RFM95_IO1 LITERAL1
