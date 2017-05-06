@@ -2,7 +2,7 @@
 #define _FEATHER_H_
 
 #include <Adafruit_SleepyDog.h>
-#include "Arduino.h"
+#include <Arduino.h>
 
 #define LED_BUILTIN   13
 #define PIN_VBAT      A9
@@ -15,6 +15,6 @@ void led_on();
 void led_off();
 
 float battery_voltage();
-void sleep(int sleep_ms);
+void sleep(unsigned long sleep_ms);
 
 #endif
